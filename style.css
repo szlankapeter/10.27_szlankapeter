@@ -1,0 +1,66 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+
+main{
+    border: solid 1px black;
+}
+
+header{
+    border: 1px solid black;
+    margin: 10px;
+}
+nav{
+    border: solid 1px black;
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.63);
+}
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 85% 100px 0px;
+}
+nav a{
+    padding: 10px;
+    margin: 0;
+    color: red;
+    text-decoration: none;
+    border-left: 1px solid black;
+}
+nav a:hover{
+    background-color: red;
+    color: white;
+}
+article{
+    border: 1px solid black;
+    margin: 10px;
+}
+.nagykep{
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+    margin: 20px;
+    width: 95%;
+    text-align: center;
+}
+.nagykep img{
+    width: 95%;
+    height: auto;
+}
+.kiskep{
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.kiskep img{
+    width: 100%;
+    height: auto;
+}
+.kiskep div{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+}
